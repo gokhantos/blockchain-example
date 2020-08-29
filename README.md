@@ -16,13 +16,13 @@ This blockchain is hosted on localhost. The third argument that you give when yo
 ```bash
 node api.js 3000
 ```
-After running blockchain api register and broadcast all nodes by using Postman:
+After running blockchain api register and broadcast all nodes by using Postman on http://localhost:3000/register-and-broadcast-node
 ```json
 {
     "newNodeURL": "http://localhost:3001"
 }
 ```
-Add a transaction and broadcast by Postman:
+Add a transaction and broadcast by Postman on http://localhost:3000/transaction/broadcast
 ```json
 {
     "amount": 100,
